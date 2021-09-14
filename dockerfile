@@ -1,7 +1,7 @@
 FROM debian:buster-slim
 
 # Install dependencies
-RUN apt-get update && apt-get install -y curl
+RUN apt-get update && apt-get install -y curl git
 
 # Install Neovim
 WORKDIR /tmp
