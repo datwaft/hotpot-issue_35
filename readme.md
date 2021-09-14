@@ -2,7 +2,15 @@
 
 This is a reproduction of an issue in the [`Stepets/utf8.lua`](https://github.com/Stepets/utf8.lua) in which the module cannot be required from neovim.
 
-# How to reproduce the issue
+## How to clone the repository
+
+Execute the following command:
+
+```sh
+git clone --recurse-submodules https://github.com/datwaft/utf8-issue_nvim
+```
+
+## How to reproduce the issue
 
 Execute the following docker command:
 
