@@ -12,6 +12,8 @@ require("init")
 
 if pcall(function() require("utf8") end) then
     print("require-from-lua", "SUCCESS")
+    require("utf8")
 else
     print("require-from-lua", "FAILED")
+    require("utf8")
 end
