@@ -7,7 +7,7 @@ A reproduction of the hotpot issue [#35](https://github.com/rktjmp/hotpot.nvim/i
 Execute the following command:
 
 ```sh
-git clone --recurse-submodules https://github.com/datwaft/hotpot-issue_35
+git clone --recurse-submodules https://github.com/datwaft/hotpot-issue_35 --branch success
 ```
 
 ## How to reproduce the issue
